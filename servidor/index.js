@@ -3,9 +3,9 @@ let app = express()
 let mysql = require("mysql")
 
 let db = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "rhcprhcp75321",
+    host: "%",
+    user: "eron",
+    password: "Fisic@1020",
     database: "cruddb",
 })
 
